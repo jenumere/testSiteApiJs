@@ -1,3 +1,74 @@
-h1, h2 {
-  font-family: Lato;
+/*Autres styles*/
+
+.item_liste_actif {
+  color: red;
+}
+
+.liste {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.article,
+.liste {
+  margin: 1rem;
+}
+
+.cadre {
+  border-right: solid;
+  border-bottom: solid;
+  border-width: 2px;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 30em) {
+  .liste {
+    overflow: scroll;
+    height: 100px;
+  }
+}
+
+/*! CSS Used from: https://unpkg.com/tachyons/css/tachyons.min.css */
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+div,
+html,
+p {
+  box-sizing: border-box;
+}
+
+.fl {
+  float: left;
+}
+
+.fl {
+  _display: inline;
+}
+
+.mw9 {
+  max-width: 96rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Ecran PC*/
+
+@media screen and (min-width: 30em) {
+  .w-20-ns {
+    width: 20%;
+  }
+  .w-75-ns {
+    width: 75%;
+  }
 }
